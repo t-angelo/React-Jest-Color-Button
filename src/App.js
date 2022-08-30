@@ -20,7 +20,7 @@ function App() {
       type="checkbox"
       id="enable-button-checkbox"
       defaultChecked={disabled}
-      aria-checked={disabled} // for screen readers
+      aria-checked={disabled}
       onChange={(e) => setDisabled(e.target.checked)}
       />
    </div>
