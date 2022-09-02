@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
    <div>
     <button 
-      style={{backgroundColor: buttonColor}}
+      style={{backgroundColor: disabled ? 'gray' : buttonColor}}
       onClick={() => setButtonColor(newButtonColor)}
       disabled={disabled}
       >
